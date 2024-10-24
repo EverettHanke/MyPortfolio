@@ -27,16 +27,20 @@ header {
     padding: 10px 20px;
     text-align: center;
 }
+.whiteTxt
+{
+    color: var(--coffee-cream);;
+}
 
-.sticky-nav {
+/*.sticky-nav {
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensures it stays on top of other elements */
-    background-color: var(--coffee-dark); /* Maintain the background color */
-    color: var(--coffee-cream); /* Maintain the text color */
-    padding: 10px 20px; /* Maintain the padding */
-    text-align: center; /* Maintain the text alignment */
-}
+    z-index: 1000;
+    background-color: var(--coffee-dark);
+    color: var(--coffee-cream);
+    padding: 10px 20px;
+    text-align: center;
+}*/
 
 nav h1 {
     font-size: 24px;
@@ -127,11 +131,14 @@ footer {
 }
 
 .project img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
 .projectButton {
     text-decoration: none;
 }
+
+
