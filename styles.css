@@ -59,6 +59,14 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
 }
+html {
+    scroll-behavior: smooth;
+}
+nav ul li a:hover {
+    color: var(--coffee-accent);
+    border-bottom: 2px solid var(--coffee-accent);
+}
+
 
 
 #hero {
@@ -124,14 +132,23 @@ h2 {
 }
 
 #contact .btn {
-    background-color: var(--coffee-accent);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
     margin-top: 20px;
+    background: linear-gradient(45deg, var(--coffee-accent), var(--coffee-medium));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
 }
+#contact .btn {
+
+}
+#contact .btn:hover {
+    transform: translateY(-3px);
+}
+
 
 footer {
     text-align: center;
@@ -163,5 +180,15 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+
+
 
 
