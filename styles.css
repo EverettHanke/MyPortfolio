@@ -1,10 +1,11 @@
 /* Root Colors */
 :root {
-    --coffee-dark: #4b2e23;
-    --coffee-medium: #8d6e63;
-    --coffee-light: #d7ccc8;
-    --coffee-cream: #f5f5f5;
-    --coffee-accent: #6f4e37;
+    --dark-bg: #1e1e2f; /* Background */
+    --dark-bg-cards: #2c2c3d; /* Background */
+    --dark-surface: #252539; /* Surface elements */
+    --dark-accent: #5865f2; /* Accent (e.g., hover links) */
+    --light-text: #dcdde1; /* Main text */
+    --subtle-text: #b9bbbe; /* Secondary text */
 }
 
 /* General Styles */
@@ -13,34 +14,41 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
-    color: var(--coffee-dark);
+    color: var(--light-text);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: var(--coffee-cream);
+    background-color: var(--dark-bg);
     padding: 20px;
 }
 
 header {
-    background-color: var(--coffee-dark);
-    color: var(--coffee-cream);
+    background-color: var(--dark-surface);
+    color: var(--light-text);
     padding: 10px 20px;
     text-align: center;
 }
-.whiteTxt
-{
-    color: var(--coffee-cream);;
+
+.whiteTxt {
+    color: var(--light-text);
 }
 
-/*.sticky-nav {
+
+
+/* Sticky Navigation CURRENTLY NOT WORKING*/
+.sticky-nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: var(--coffee-dark);
-    color: var(--coffee-cream);
+    background-color: var(--dark-surface);
+    color: var(--light-text);
     padding: 10px 20px;
     text-align: center;
-}*/
+}
 
 nav h1 {
     font-size: 24px;
@@ -55,31 +63,25 @@ nav ul {
 }
 
 nav ul li a {
-    color: var(--coffee-cream);
+    color: var(--light-text);
     text-decoration: none;
     font-size: 18px;
-}
-html {
-    scroll-behavior: smooth;
-}
-nav ul li a:hover {
-    color: var(--coffee-accent);
-    border-bottom: 2px solid var(--coffee-accent);
+    transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: var(--dark-accent);
+    border-bottom: 2px solid var(--dark-accent);
+}
 
 
 #hero {
-    /* background-image: url('images/PrimeHorror.png');  Replace with the actual image path later if I want to */
-    background-color: var(--coffee-light);
+    background: linear-gradient(180deg, var(--dark-bg-cards), var(--dark-surface));
     text-align: center;
-    background-size: cover;
-    background-position: center;
-    color: var(--coffee-cream);
+    color: var(--light-text);
     padding: 100px 20px;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
 
 #hero h2 {
     font-size: 36px;
@@ -88,24 +90,24 @@ nav ul li a:hover {
 
 #hero p {
     font-size: 18px;
-    color: var(--coffee-accent);
+    color: var(--dark-accent);
 }
 
 section {
     padding: 50px 20px;
     margin: 20px 0;
-    background-color: var(--coffee-cream);
+    background-color: var(--dark-surface);
     border-radius: 8px;
 }
 
 h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: var(--coffee-dark);
+    color: var(--light-text);
 }
 
 .project {
-    background-color: var(--coffee-light);
+    background-color: var(--dark-bg);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -125,41 +127,40 @@ h2 {
 .project h3 {
     font-size: 22px;
     margin-bottom: 10px;
+    color: var(--dark-accent);
 }
 
 .project p {
     font-size: 16px;
+    color: var(--subtle-text);
 }
 
 #contact .btn {
-    color: white;
+    color: var(--light-text);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
     margin-top: 20px;
-    background: linear-gradient(45deg, var(--coffee-accent), var(--coffee-medium));
+    background: linear-gradient(45deg, var(--dark-accent), var(--dark-surface));
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
 }
-#contact .btn {
 
-}
 #contact .btn:hover {
     transform: translateY(-3px);
 }
-
 
 footer {
     text-align: center;
     margin-top: 40px;
     padding: 20px 0;
-    background-color: var(--coffee-dark);
-    color: var(--coffee-cream);
+    background-color: var(--dark-surface);
+    color: var(--subtle-text);
 }
 
-.imgContainer{
-    width:100%;
+.imgContainer {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -180,21 +181,24 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-#skills
-{
+
+#skills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
+    color: var(--light-text);
 }
+
 p {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    color: var(--subtle-text);
 }
+section{
+    background: linear-gradient(180deg, var(--dark-bg-cards), var(--dark-surface));
 
-
-
-
-
+}
