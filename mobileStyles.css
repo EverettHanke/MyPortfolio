@@ -1,0 +1,128 @@
+/* General Mobile Styles */
+@media (max-width: 768px) {
+    /* Adjust the project cards layout to stack vertically */
+    #projectContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the cards */
+        gap: 20px;
+    }
+
+    .project {
+        width: 90%; /* Make project cards take 90% of the container width */
+        height: auto; /* Allow the height to adjust to content */
+        padding: 15px;
+    }
+
+    .projectImg {
+        width: 200px; /* Adjust image size for mobile */
+        height: 200px;
+    }
+
+    /* Adjust the font size for better readability on mobile */
+    h2 {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .project h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .skills .scroller, .langImage, .scroller img {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px auto; /* Center and space out the items */
+    }
+
+    .scroller {
+        height: auto; /* Allow scrolling sections to adjust height */
+        padding: 10px;
+        overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+    }
+
+    /* Skills Section - Stack items vertically */
+    .skills {
+        display: block;
+        margin-top: 20px;
+    }
+
+    /* Adjust the sticky navigation to be more mobile-friendly */
+    .sticky-nav {
+        position: static; /* Make the nav static on mobile for better performance */
+        padding: 10px;
+    }
+
+    .sticky-nav ul {
+        display: block; /* Stack the navigation items vertically on mobile */
+        text-align: center;
+    }
+
+    .sticky-nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    #hero {
+        padding: 50px 20px;
+    }
+
+    /* Reduce the gap in the Hero section for mobile */
+    #hero h2 {
+        font-size: 28px;
+    }
+
+    #hero p {
+        font-size: 16px;
+    }
+    .langImage{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+/* For very small screens (phones in portrait mode) */
+@media (max-width: 480px) {
+    /* Adjust the project cards to be even more mobile-friendly */
+    .project {
+        width: 100%; /* Take full width on very small screens */
+    }
+
+    .projectImg {
+        width: 180px;
+        height: 180px;
+    }
+
+    /* Skills - Adjust the font size and scroller size for small screens */
+    .skills h2, .skills .itemL h1, .skills .itemR h1 {
+        font-size: 18px;
+    }
+
+    .scroller {
+        height: 220px; /* Adjust height for small screens */
+        padding: 5px;
+    }
+
+    /* Reduce space between text elements in the Hero section */
+    #hero h2 {
+        font-size: 24px;
+    }
+
+    #hero p {
+        font-size: 14px;
+    }
+    .langImage{
+        height: 20px;
+        width: 20px;
+    }
+}
