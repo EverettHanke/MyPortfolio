@@ -162,6 +162,11 @@ p {
 .projectButton {
     text-decoration: none;
 }
+.skillsUsed
+{
+    font-style: italic;
+    font-weight: bold;
+}
 
 #projectContainer {
     display: grid;
@@ -213,6 +218,7 @@ footer {
 .title{
     font-size: 40px;
 }
+
 
 
 
