@@ -53,7 +53,10 @@
 <section id="projects">
     <h2 class="title">Projects</h2>
     <div id="projectContainer">
-          <a href="https://github.com/EverettHanke/ProductivityTracker"  target="_blank" rel="noopener noreferrer" class="projectButton">
+          <a href="https://github.com/EverettHanke/ProductivityTracker"  target="_blank" rel="noopener noreferrer" class="projectButton"  
+          onclick="gtag('event', 'project_clicked', {
+            project_name: 'Productivity Tracker'
+          });">
             <div class="project">
                 <h3>Productivity Tracker</h3>
                 <div class="imgContainer">
@@ -63,7 +66,10 @@
                 <p class="skillsUsed">Skills: TypeScript, JavaScript, React Electron, LocalStorage</p>
             </div>
         </a>
-        <a href="https://github.com/EverettHanke/passwordManager"  target="_blank" rel="noopener noreferrer" class="projectButton">
+        <a href="https://github.com/EverettHanke/passwordManager"  target="_blank" rel="noopener noreferrer" class="projectButton"
+         onclick="gtag('event', 'project_clicked', {
+            project_name: 'Password Manager'
+          });">>
             <div class="project">
                 <h3>Password Manager</h3>
                 <div class="imgContainer">
