@@ -7,13 +7,13 @@ function Skills() {
         <div>
           <h2 className="title">Skills:</h2>
           <div className="scroller">
-            <div className="itemL skill1"><h1>Natural Leader</h1></div>
-            <div className="itemL skill2"><h1>Team Player</h1></div>
-            <div className="itemL skill3"><h1>Scrum Master</h1></div>
-            <div className="itemL skill4"><h1>Problem-solving</h1></div>
-            <div className="itemL skill5"><h1>Debugging</h1></div>
-            <div className="itemL skill6"><h1>Server-Side Validation</h1></div>
-            <div className="itemL skill7"><h1>Agile Methodology</h1></div>
+            <div className="itemL skill1"><h3>Natural Leader</h3></div>
+            <div className="itemL skill2"><h3>Team Player</h3></div>
+            <div className="itemL skill3"><h3>Scrum Master</h3></div>
+            <div className="itemL skill4"><h3>Problem-solving</h3></div>
+            <div className="itemL skill5"><h3>Debugging</h3></div>
+            <div className="itemL skill6"><h3>Server-Side Validation</h3></div>
+            <div className="itemL skill7"><h3>Agile Methodology</h3></div>
           </div>
         </div>
         <div>
