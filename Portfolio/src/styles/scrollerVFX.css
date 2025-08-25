@@ -1,0 +1,146 @@
+.itemL {
+    width: 300px;
+    height: 120px;
+    /*background-color: #5865f2;*//*TESTING PURPOSES*/
+    position: absolute;
+    left: max(calc(300px * 8), 100%); /*this keeps the elements from overlapping on smaller screens*/
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 1.3vw;
+    text-align: center;
+}
+.itemR {
+    width: 300px;
+    height: 120px;
+    /*background-color: #5865f2;*//*TESTING PURPOSES*/
+    position: absolute;
+    right: max(calc(300px * 8), 100%); /*this keeps the elements from overlapping on smaller screens*/
+    animation-name: scrollRight;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 1.3vw;
+    text-align: center;
+}
+.langImage
+{
+    width: 100px;
+    height: 100px;
+}
+.scroller
+{
+    /*border: 1px solid black;*/ /*FOR TESTING PURPOSES*/
+    width: 90%;
+    height: 260px;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,1) 20%,rgba(0,0,0,1)80%,rgba(0,0,0,0));
+}
+
+@keyframes scrollLeft {
+
+    to{
+        left: -300px;
+    }
+}
+@keyframes scrollRight {
+
+    to{
+        right: -300px;
+    }
+}
+
+/*FOR SKILLS SECTION*/
+.skill1{
+    animation-delay: calc(30s / 7 * (7 - 1) * -1);
+}
+.skill2{
+    animation-delay: calc(30s / 7 * (7 - 2) * -1);
+}
+.skill3{
+    animation-delay: calc(30s / 7 * (7 - 3) * -1);
+}
+.skill4{
+    animation-delay: calc(30s / 7 * (7 - 4) * -1);
+}
+.skill5{
+     animation-delay: calc(30s / 7 * (7 - 5) * -1);
+ }
+.skill6{
+    animation-delay: calc(30s / 7 * (7 - 6) * -1);
+}
+.skill7{
+    animation-delay: calc(30s / 7 * (7 - 7) * -1);
+}
+
+
+/*FOR LANGUAGE SECTION*/
+.lang1{
+    animation-delay: calc(30s / 13 * (13 - 1) * -1);
+}
+.lang2{
+    animation-delay: calc(30s / 13 * (13 - 2) * -1);
+}
+.lang3{
+    animation-delay: calc(30s / 13 * (13 - 3) * -1);
+}
+.lang4{
+    animation-delay: calc(30s / 13 * (13 - 4) * -1);
+}
+.lang5{
+    animation-delay: calc(30s / 13 * (13 - 5) * -1);
+}
+.lang6{
+    animation-delay: calc(30s / 13 * (13 - 6) * -1);
+}
+.lang7{
+    animation-delay: calc(30s / 13 * (13 - 7) * -1);
+}
+.lang8{
+    animation-delay: calc(30s / 13 * (13 - 8) * -1);
+}
+.lang9{
+    animation-delay: calc(30s / 13 * (13 - 9) * -1);
+}
+.lang10{
+    animation-delay: calc(30s / 13 * (13 - 10) * -1);
+}
+.lang11{
+    animation-delay: calc(30s / 13 * (13 - 11) * -1);
+}
+.lang12{
+    animation-delay: calc(30s / 13 * (13 - 12) * -1);
+}
+.lang13{
+    animation-delay: calc(30s / 13 * (13 - 13) * -1);
+}
+
+/*FOR FRAMEWORK SECTION*/
+.frame1{
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+.frame2{
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+.frame3{
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+.frame4{
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+.frame5{
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+.frame6{
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+.frame7{
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+.frame8{
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
