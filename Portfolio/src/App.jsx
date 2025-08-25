@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import '../../styles.css';
-import '../../textVFX.css';
-import '../../slideVFX.css';
-import '../../scrollerVFX.css';
-import '../../mobileStyles.css';
+import './styles/styles.css';
+import './styles/textVFX.css';
+import './styles/slideVFX.css';
+import './styles/scrollerVFX.css';
+import './styles/mobileStyles.css';
 
 import Header from './Header';
 import Hero from './Hero';
