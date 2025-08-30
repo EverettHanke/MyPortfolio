@@ -27,6 +27,7 @@
     position: relative;
     background-color: inherit;
     width: 50%;
+    z-index: 1;
 }
 
 .timeline-item:nth-child(odd) {
@@ -43,7 +44,7 @@
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white; /* Reverted */
+    background-color: white;
     border: 4px solid var(--dark-accent); /* Updated */
     top: 15px;
     border-radius: 50%;
