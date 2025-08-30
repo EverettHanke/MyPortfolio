@@ -54,3 +54,15 @@ section, .project{
     animation-timeline: view();
     animation-range: entry 0;
 }
+
+.timeline-item.slide-in-left {
+    animation: slide-fade-in-sideL;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+.timeline-item.slide-in-right {
+    animation: slide-fade-in-sideR;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
