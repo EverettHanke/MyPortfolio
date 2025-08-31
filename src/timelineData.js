@@ -1,10 +1,10 @@
 const timelineData = [
   {
     id: 1,
-    date: '2022 - Present',
-    title: 'Software Engineer',
-    company: 'Tech Company Inc.',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nisl nisl aliquet nisl, eget aliquam nisl nisl sit amet nisl.',
+    date: '2025 - Present',
+    title: 'Associate Software Engineer',
+    company: 'Sinclair Digital',
+    description: 'Something here',
   },
   {
     id: 2,
