@@ -55,13 +55,13 @@ section, .project{
     animation-range: entry 0;
 }
 
-.timeline-item.slide-in-left {
+.timeline-content.slide-in-left {
     animation: slide-fade-in-sideL;
     animation-timeline: view();
     animation-range: entry 0;
 }
 
-.timeline-item.slide-in-right {
+.timeline-content.slide-in-right {
     animation: slide-fade-in-sideR;
     animation-timeline: view();
     animation-range: entry 0;

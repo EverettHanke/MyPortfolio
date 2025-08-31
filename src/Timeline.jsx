@@ -43,9 +43,10 @@ const Timeline = () => {
           <div
             className="timeline-item"
             key={item.id}
-            ref={(el) => (itemsRef.current[index] = el)}
           >
-            <div className="timeline-content">
+            <div 
+              className="timeline-content"
+              ref={(el) => (itemsRef.current[index] = el)}>
               <span className="date">{item.date}</span>
               <h2>{item.title}</h2>
               <h3>{item.company}</h3>
