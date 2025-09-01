@@ -15,11 +15,10 @@ const timelineData = [
   },
   {
     id: 3,
-    date: '2018 - 2020',
-    title: 'Intern',
-    company: 'Startup Co.',
-    description: 'Fugiat, excepturi, praesentium, voluptatibus, quae, quod, quibusdam, quos, quidem, nesciunt, voluptatem, quia, quas, voluptatum, autem, quibusdam, quos, quidem, nesciunt, voluptatem, quia, quas, voluptatum, autem.',
-  },
+    date: '2020 - Present',
+    title: 'Indie Game Developer',
+    company: 'Forge Tek Studios LLC',
+    description: 'Led a small team of indie game developers in creating and publishing games and developer tools.',
 ];
 
 export default timelineData;
